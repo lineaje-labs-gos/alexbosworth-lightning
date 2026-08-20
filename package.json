@@ -36,11 +36,17 @@
     "lnd"
   ],
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "main": "index.js",
   "name": "lightning",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexbosworth/lightning.git"
+    "url": "https://github.com/lineaje-labs-gos/alexbosworth-lightning"
   },
   "scripts": {
     "test": "npx nyc@17.1.0 node --experimental-test-coverage --test && npm run test:types",
@@ -51,5 +57,5 @@
     "directory": "test-typescript/typescript"
   },
   "types": "index.d.ts",
-  "version": "10.27.5"
+  "version": "10.27.5-lineaje-01"
 }
